@@ -40,3 +40,23 @@ body {
   transition: 0.3s;
 }
 
+@media (maz-width:768px){
+  .titulo {
+    font-size: 24px;
+  }
+  .link {
+    font-size: 12px;
+    padding: 10px 20px;
+
+  }
+}
+
+@media(max-width: 480px) {
+  .titulo {
+    font-size: 18px;
+  }
+  .link {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+}
