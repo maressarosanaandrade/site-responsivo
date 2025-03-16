@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-  background-image: url(img/fundo.png);  
+  background-image: url(https://cdn.pixabay.com/photo/2023/09/01/17/42/ai-generated-8227409_1280.jpg);  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -32,7 +32,7 @@ body {
   font-size: 14px;
   text-decoration: none;
   color: white;
-  background-color: saddlebrown;
+  background-color: rgb(121, 130, 177);
   padding: 12px 24px;
   border-radius: 20px;
   display: inline-block;
@@ -40,7 +40,7 @@ body {
   transition: 0.3s;
 }
 
-@media (maz-width:768px){
+@media (max-width:768px){
   .titulo {
     font-size: 24px;
   }
