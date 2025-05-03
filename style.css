@@ -1,46 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body{
-    background-color:rgba(159, 208, 159, 0.822);
-    font-family: 'Press Start 2P', cursive;
+    min-height: 100vh;
     margin:0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color:#f4fdf4;
+    color: #333;
     text-align: center;
 }
 
+header {
+    background: #4c6e52;
+    padding: 1.5rem 0;
+}
 
-.galeria{
+header h1{
+    font-size: 2.5rem;
+    letter-spacing: 3px;
+    color: #eaffea;
+    margin: 0;
+}
+
+nav {
+    background: #6baa75;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    text-align: center;
     gap: 10px;
-    align-items: center;
     padding: 10px;
 }
 
-.galeria img:hover {
-    transform: scale(1.07); 
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 0;
+    transition: color 0.4s;
 }
+
+nav a:hover {
+    color: #d8ffd8;
+}
+
+footer {
+    background: #4c6e52;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+}
+
 
 
 .galeria img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 8px;
-}
- 
-header {
-    font-family:cursive;
-    color: rgb(29, 87, 67);
-    font-size: 16px;
-    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+} 
+.galeria img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
 }
 
-footer {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 10px;
-    color: darkgreen;
-    text-align: center;
-}
 
 @media(max-width: 600px){
     .galeria{
