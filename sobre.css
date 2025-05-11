@@ -14,6 +14,21 @@ body {
   min-height: 100vh;
 }
 
+
+.botao-voltar {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #4c6e52;
+  background-color: transparent;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+
 .sobre {
   max-width: 800px;
   background: white;
@@ -24,7 +39,7 @@ body {
 
 .sobre h1 {
   font-size: 2.5rem;
-  color: #4c6e52;
+  color:#4c6e52;
   margin-bottom: 20px;
 }
 
@@ -41,3 +56,12 @@ body {
 
 .sobre a:hover {
   text-decoration: underline;}
+
+@media (max-width: 600px) {
+  .sobre {
+    padding: 20px;
+  }
+ .sobre h1 {
+  font-size: 1.8rem;
+ }
+}
