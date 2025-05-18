@@ -40,7 +40,22 @@ nav a {
 }
 
 nav a:hover {
-    color: #d8ffd8;
+    color: #85c787;
+}
+
+#curtida {
+    background-color: #6baa75;
+    color: white;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#curtida:hover {
+    background-color: #85c787;;
+    box-shadow: 0 6px 12px rgba(107, 170, 117, 0.6);
+    transform: scale(1.05);
 }
 
 footer {
@@ -56,8 +71,6 @@ footer {
     align-items: center;
     padding: 15px;
 }
-
-
 
 .galeria img{
     width: 100%;
