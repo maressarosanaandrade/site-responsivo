@@ -64,6 +64,7 @@ footer {
     padding: 1rem;
     margin-top: 2rem;
 }
+
 .galeria{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -80,11 +81,11 @@ footer {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 } 
+
 .galeria img:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
 }
-
 
 @media(max-width: 600px){
     .galeria{
