@@ -1,13 +1,9 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: 'Poppins', sans-serif;
   background-color: #f4fdf4;
   color: #333;
   line-height: 1.6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 60px 30px;
   min-height: 100vh;
 }
@@ -48,7 +44,7 @@ body {
   margin-bottom: 20px;
 }
 
-.contato p, .informacoes p {
+.contato p {
   font-size: 1.1rem;
   margin-bottom: 16px;
   text-align: justify;
@@ -90,8 +86,6 @@ body {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
   resize: vertical;
 }
 
@@ -110,6 +104,22 @@ body {
 .formulario button:hover {
   background-color: #3a553f;
 }
+
+.mensagem-sucesso {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4c6e52;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+}
+
 
 @media (max-width: 768px) {
   .contato-container {
